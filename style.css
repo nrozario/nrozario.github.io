@@ -455,6 +455,9 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 .icon-lg{
 	font-size:60px!important;
 }
