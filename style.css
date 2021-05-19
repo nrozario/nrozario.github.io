@@ -504,7 +504,6 @@ button{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Helvetica";
-	color:#000000!important;
 }
 .container{
 	max-width:1170px;
@@ -533,6 +532,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#EDB302!important;
 }
 a{
+	color:#000000!important;
+}
+h3,p{
 	color:#000000!important;
 }
 
