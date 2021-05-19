@@ -141,7 +141,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 #home h3{
 	font-size: 200%;
 }
-#work h2{
+#work h3{
 	font-size: 30px;
 }
 #work p{
@@ -151,7 +151,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 30px;
 }
 #projects p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #projects h2{
 	font-size: 40px;
@@ -160,10 +160,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-4 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-5 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-5 h2{
 	font-size: 40px;
@@ -172,10 +172,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-6 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-7 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-7 h2{
 	font-size: 40px;
@@ -184,10 +184,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-8 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-9 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-9 h2{
 	font-size: 40px;
@@ -196,10 +196,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-10 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-11 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-11 h2{
 	font-size: 40px;
@@ -208,10 +208,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-12 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-13 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-13 h2{
 	font-size: 40px;
@@ -220,10 +220,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-14 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-15 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-15 h2{
 	font-size: 40px;
@@ -232,10 +232,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-16 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-17 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-17 h2{
 	font-size: 40px;
@@ -244,10 +244,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-18 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-19 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 #bloc-19 h2{
 	font-size: 40px;
@@ -256,7 +256,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-20 p{
-	font-size: 2rem;
+	font-size: 20px;
 }
 
 /* = NavBar
@@ -532,6 +532,8 @@ a{
 }
 h3,p{
 	color:#000000!important;
+}
+.secret:hover{
 }
 
 /* = Colour
