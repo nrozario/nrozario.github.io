@@ -129,6 +129,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 .voffset{
 	margin-top:30px;
 }
+.voffset-lg{
+	margin-top:80px;
+}
 
 /* Bloc text custom styling */
 
@@ -138,14 +141,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 #home h3{
 	font-size: 200%;
 }
-#work h3{
+#work h2{
 	font-size: 30px;
+}
+#work p{
+	font-size: 2rem;
 }
 #projects h3{
 	font-size: 30px;
 }
 #projects p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #projects h2{
 	font-size: 40px;
@@ -154,10 +160,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-4 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-5 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-5 h2{
 	font-size: 40px;
@@ -166,10 +172,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-6 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-7 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-7 h2{
 	font-size: 40px;
@@ -178,10 +184,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-8 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-9 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-9 h2{
 	font-size: 40px;
@@ -190,10 +196,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-10 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-11 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-11 h2{
 	font-size: 40px;
@@ -202,10 +208,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-12 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-13 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-13 h2{
 	font-size: 40px;
@@ -214,10 +220,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-14 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-15 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-15 h2{
 	font-size: 40px;
@@ -226,10 +232,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-16 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-17 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-17 h2{
 	font-size: 40px;
@@ -238,10 +244,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-18 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-19 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 #bloc-19 h2{
 	font-size: 40px;
@@ -250,7 +256,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-20 p{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 /* = NavBar
@@ -408,10 +414,6 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-sm{
-	margin-top:10px;
-	margin-bottom:5px;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -419,18 +421,6 @@ nav .caret{
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
-}
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -743,7 +733,19 @@ h3,p{
     }
 }
 @media (max-width: 767px){
-	 #home h1{
+	.blocs-team-avatar{
+	max-width:280px;
+}
+.blocs-team-header{
+	text-align:center;
+}
+.blocs-team-details{
+	text-align:center;
+}
+.blocs-team-first-social{
+	margin-left:41%;
+}
+ #home h1{
 	font-size: 4rem;
 }
 #home h3{
