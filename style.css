@@ -156,11 +156,11 @@ a:hover{text-decoration: none; cursor:pointer;}
 #projects h3{
 	font-size: 30px;
 }
-#bloc-4 p{
-	font-size: 20px;
-}
 #bloc-4 h2{
 	font-size: 40px;
+}
+#bloc-4 p{
+	font-size: 20px;
 }
 #bloc-5 h2{
 	font-size: 40px;
@@ -170,12 +170,17 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-6 p{
 	font-size: 20px;
+	line-height: 20px;
 }
 #bloc-6 h2{
 	font-size: 40px;
 }
 #bloc-7 h2{
 	font-size: 40px;
+}
+#bloc-7 p{
+	font-size: 20px;
+	line-height: 20px;
 }
 #bloc-7 p{
 	font-size: 20px;
@@ -262,6 +267,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-size: 40px;
 }
 #bloc-21 p{
+	font-size: 20px;
+}
+#bloc-22 p{
+	font-size: 20px;
+}
+#bloc-22 h2{
+	font-size: 40px;
+}
+#bloc-23 h2{
+	font-size: 40px;
+}
+#bloc-23 p{
 	font-size: 20px;
 }
 
@@ -420,6 +437,10 @@ nav .caret{
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -427,6 +448,18 @@ nav .caret{
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -752,6 +785,12 @@ h3,p{
 }
 .blocs-team-first-social{
 	margin-left:41%;
+}
+.edu-logo{
+	width:25%;
+}
+.logo-img{
+	padding-left:10px;
 }
  #home h1{
 	font-size: 4rem;
